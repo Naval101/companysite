@@ -13,6 +13,7 @@ a {
     color:white;
 }
 .navbar {
+    
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -193,7 +194,7 @@ button:hover {
 
 }
 /** Services section**/
-.service-section {
+ .service-section {
     background: #ddd;
     padding: 60px;
 
