@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="site.css" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <h2><a href="#">CompanyLogo</a></h2>
+        <a href="#" class="icon">
+                <i class="fa fa-bars"></i>
+        </a>
+            <div class="navbar-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href ="#">Contact</a></li>
+            </ul>
+            </div> 
+        </nav>
+    </header>
+    <section class="banner-section">
+        <div class="banner-img"></div>
+        <h1>Build the Future</h1>
+        <h3>Responsive web Design</h3>
+        <button>CONTACT US</button>
+
+    </section>
+    <section class="about-section">
+        <h1>About us</h1>
+        <div class="about-info">
+            <div class="left"></div>
+            <div class="right">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec massa turpis. Maecenas blandit ut erat sit amet auctor. Fusce tristique, arcu sed pulvinar ornare, dolor ex tempus metus, ut molestie tortor felis a ligula.</p>
+                <button>Read more</button>
+            </div>
+            
+        </div>
+
+    </section>
+    <section class="service-section">
+        <h1>Services</h1>
+        <div class="service-info">
+            <div class="service1">
+                <i class="fa fa-laptop"></i>
+                <h3>Web Design</h3>
+                <p>Class aptent taciti sociosqu ad l Class aptent taciti sociosqu ad litora torquent per con Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="service2">
+                <i class="fa fa-signal"></i>
+                <h3>Marketing</h3>
+                <p>Class aptent taciti sociosqu ad l Class aptent taciti sociosqu ad litora torquent per con Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="service3">
+                <i class="fa fa-picture-o"></i>
+                <h3>Graphics</h3>
+                <p>Class aptent taciti sociosqu ad l Class aptent taciti sociosqu ad litora torquent per con Lorem ipsum dolor sit amet</p>
+       
+            </div>
+        </div>
+
+    </section>
+
+    <!-- <section class="contact-section">
+            <h1>Contact</h1>
+            <div class="contact-info">
+                    <div class="contact1">
+                        <i class="fa fa-map-marker"></i>
+                        <p>101 Harrogate Road</p>
+                        <p>SADDINGTON, UK</p>
+                    </div>
+                    <div class="contact2">
+                        <i class="fa fa-phone"></i>
+                        <p>+44 1632 960953</p>
+                        <p>+44 1632 960946
+                            </p>
+                    </div>
+                    <div class="contact3">
+                        <i class="fa fa-envelope"></i>
+                        <p>info@conmanyname.com</p>
+                        <p>contact@companyname.com</p>
+                    </div>
+                </div>
+    </section> -->
+
+    <section class="footer">
+        <div class="footer-info">
+            <div class="social-media">
+                <h4>Follow us</h4>
+                <div class="social-media">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+
+            <div class="links">
+                <h4>Company</h4>
+                <p><a href="#">About</a></p>
+                <p><a href="#">Carrers</a></p>
+                <p><a href="#">Privacy Policy</a></p>
+            </div>
+
+            <div class="contact">
+                <h4>Contact us</h4>
+
+                <i class="fa fa-map-marker"></i>
+                &nbsp;<span>101 Harrogate Road, SADDINGTON, UK</span><br/>
+
+                <i class="fa fa-phone"></i>
+                &nbsp;<span>+44 1632 960953</span> <br/>
+
+                <i class="fa fa-envelope"></i>
+                &nbsp;<span>info@conmanyname.com, contact@companyname.com</span>
+            </div>
+        </div>
+
+    </section>
+    <script>         
+        const toggleButton = document.getElementsByClassName('icon')[0]
+        const element=document.getElementsByClassName('navbar-links')[0];
+
+            toggleButton.addEventListener('click', () => {
+                  element.classList.toggle('active')
+                // alert("ok")
+            })
+       
+    
+    </script>
+</body>
+</html>
