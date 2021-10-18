@@ -291,7 +291,7 @@ button:hover {
 
 /** Footer **/
 .footer {
-    background-color: #000;
+    background-color:  rgb(26, 26, 26);
     color:white;
 }
 .footer-info {
@@ -338,7 +338,13 @@ button:hover {
 .footer-info .social-media {
     order:3;
 }
-
+.copyright {
+    text-align: center;
+    background-color:rgb(34, 33, 33);
+}
+.footer-info span, p {
+    font-size: 15px;
+}
 @media(max-width:1000px){
     .footer-info div {
         height: 100%;
@@ -347,6 +353,9 @@ button:hover {
     .footer-info {
         flex-direction: column;
         align-items: center;
+    }
+    .footer-info span, p {
+        font-size: 10px;
     }
    
 }
