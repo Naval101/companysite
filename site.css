@@ -328,3 +328,25 @@ button:hover {
 .footer-info .contact span {
     line-height: 2;
 }
+
+.footer-info .contact {
+    order:1;
+}
+.footer-info .links {
+    order:2;
+}
+.footer-info .social-media {
+    order:3;
+}
+
+@media(max-width:1000px){
+    .footer-info div {
+        height: 100%;
+        text-align: center;
+    }
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
